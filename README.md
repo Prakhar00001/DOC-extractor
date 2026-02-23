@@ -7,11 +7,12 @@ This project demonstrates practical integration of multimodal LLMs + PDF renderi
 
 System Architecture
 
-Invoice PDF → Gemini Flash (Multimodal Extraction)
-           → Structured Schema Validation
-           → Bounding Box Mapping
-           → PyMuPDF Rendering
-           → Annotated PDF Output
+Invoice PDF
+→ Gemini Flash (Multimodal Extraction)
+→ Structured Schema Validation
+ → Bounding Box Mapping
+ → PyMuPDF Renderi
+ → Annotated PDF Output
 
 doc-extractor/
 │
